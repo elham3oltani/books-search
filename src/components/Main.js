@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
 import Book from "./Book";
-import { ImSpinner6 } from "react-icons/im";
 import banner from "../image/bannerBook.svg";
 import axios from "axios";
 
