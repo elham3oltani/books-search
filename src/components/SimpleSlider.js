@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "infinite-react-carousel";
 
+
 const SimpleSlider = () => {
   const settings = {
     autoplaySpeed: 5000,
