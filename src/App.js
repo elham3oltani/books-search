@@ -5,11 +5,12 @@ import FavBook from "./components/FavBook";
 import CartContext from "./context/CartContext";
 import ShoppingCart from "./components/ShoppingCart";
 import Main from "./components/Main";
-//import SimpleSlider from "./components/SimpleSlider";
+import SimpleSlider from "./components/SimpleSlider";
 function App() {
   return (
     <>
       <CartContext>
+        <SimpleSlider />
         <Navbar />
         <Routes>
           <Route path="/" element={<Main />} />

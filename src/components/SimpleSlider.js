@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "";
+import Slider from "infinite-react-carousel";
 
 
 const SimpleSlider = () => {
